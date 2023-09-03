@@ -26,7 +26,7 @@ export default function Navbar() {
             </Link>
             {session ? (
                 <div className="nav-menu">
-                <Link href='/login' className="nav-link white">
+                <Link href='/products' className="nav-link white">
                     <div>Products</div>
                 </Link>
                 <a onClick={onManageBilling} className="nav-link border-left white">
