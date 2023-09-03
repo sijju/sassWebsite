@@ -19,7 +19,7 @@ export default function ProductPage({product}) {
             setProductContent(productContent)
         }
         getProductContent()
-    },[supabaseClient])
+    },)
     console.log(productContent)
     return (
         <section className="product-section">
