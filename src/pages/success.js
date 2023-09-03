@@ -7,7 +7,7 @@ export default function SuccessPage() {
             <div className="container">
                 <div className="section-intro welcome">
                     <Image src={confetti} width={200} height={200} alt="confetti" className="confetti"/>
-                    <h1>You're in </h1>
+                    <h1>You&apos;re in </h1>
                     <p> Your access to multiple courses started. <br/>Start Learning Now.</p>
                     <Link href='/login' className="large-button">
                         <div className="large-button-text">
