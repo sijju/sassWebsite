@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Logo from "./Logo";
-import {  useSession, useSupabaseClient, useUser } from "@supabase/auth-helpers-react";
+import {  useSession, useSupabaseClient } from "@supabase/auth-helpers-react";
 import { SITE_URL } from "../utils";
 export default function Navbar() {
     
